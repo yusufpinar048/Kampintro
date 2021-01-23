@@ -15,9 +15,9 @@ namespace GenericsIntro
 
             isimler.Add("Engin");
 
-            foreach (var item in isimler)
+            foreach (var item in isimler.Items)
             {
-                Console.WriteLine(isimler);
+                Console.WriteLine(item);
             }
 
 
